@@ -1,0 +1,33 @@
+{
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exlude": [
+    "**/node_modules"
+  ],
+  "compilerOptions": {
+    "lib": [
+      "ES2022"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "sourceMap": true,
+    "target": "ES2022",
+    "esModuleInterop": true,
+    /** Strict Type-Checking Options **/
+    "useUnknownInCatchVariables": false,
+    "alwaysStrict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "strict": true,
+    "strictFunctionTypes": false,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "skipLibCheck": true,
+    /** Additional Checks **/
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false
+  }
+}
